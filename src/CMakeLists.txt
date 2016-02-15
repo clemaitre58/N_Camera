@@ -1,15 +1,6 @@
-cmake_minimum_required(VERSION 2.8)
+include_directories(${PROJECT_SOURCE_DIR}/)
 
-project(main)
+include_directories(${external_includes})
 
-include(cmake/options.cmake               REQUIRED)
-
-include(cmake/findDependencies.cmake      REQUIRED)
-
-include(cmake/compilerDefOpt.cmake        REQUIRED)
-
-include(cmake/paths.cmake                 REQUIRED)
-
-include(cmake/buildTargets.cmake          REQUIRED)
-
-include(cmake/printInfo.cmake             REQUIRED)
+add_subdirectory(apps)
+add_subdirectory(common)

@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++11 -Wextra -Wall -Wno-delete-non-virtual-dtor -Werror=return-type -g -O0 -DDEBUG   CMakeFiles/main.dir/main.cpp.o  -o /home/cedric/Documents/Ergocycle/N_Camera/bin/main -rdynamic ../common/libcommon.a -lpthread 

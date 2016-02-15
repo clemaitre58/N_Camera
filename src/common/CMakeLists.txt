@@ -9,3 +9,4 @@ add_library(common STATIC
 )
 
 target_link_libraries(common ${external_libs})
+set_target_properties(common PROPERTIES LINKER_LANGUAGE CXX)

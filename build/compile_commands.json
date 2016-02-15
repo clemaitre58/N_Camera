@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/cedric/Documents/Ergocycle/N_Camera/build/apps",
+  "command": "/usr/bin/c++    -std=c++11 -Wextra -Wall -Wno-delete-non-virtual-dtor -Werror=return-type -g -O0 -DDEBUG -I/home/cedric/Documents/Ergocycle/N_Camera/src -I/home/cedric/Documents/Ergocycle/N_Camera/build -I/home/cedric/Documents/Ergocycle/N_Camera/src/common    -o CMakeFiles/main.dir/main.cpp.o -c /home/cedric/Documents/Ergocycle/N_Camera/src/apps/main.cpp",
+  "file": "/home/cedric/Documents/Ergocycle/N_Camera/src/apps/main.cpp"
+}
+]

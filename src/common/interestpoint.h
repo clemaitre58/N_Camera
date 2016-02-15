@@ -12,6 +12,9 @@
 #define CORE_INTEREST_POINT_H
 
 #include "typedef.h"
+#include <vector>
+#include <cmath>
+#include <cstring>
 
 namespace core
 {

@@ -1,6 +1,9 @@
 #include "src/common/interestpoint.h"
+#include "src/common/ImportDesc.h"
 
-int main(int argc, char *argv[]) 
+#include <iostream>
+
+int main() 
 {
  	//typedef util::threading::Thread thread_type;
 
@@ -57,8 +60,22 @@ int main(int argc, char *argv[])
 	surf.integral_image(detector.integral_image());
 	detector.find(pts2);
 	surf.describe(pts2);*/
+	std::string file_name = "img1.haraff.sift";
+	ImportDesc reader_desc(file_name);
+	int32_t nb_reg = reader_desc.GetNumReg();
+	int32_t nb_feat = reader_desc.GetNumFeat();
+	std::vector<std::vector<int32_t > > data_feat = reader_desc.GetFeat();
+	std::cout << "Nombre de régions : " << nb_reg << "\n";
+	std::cout << "Nombre de dimensions : " << nb_feat << "\n";
 
-	core::Matching(pts1, pts2, pair,0.75f,50);
+	for(int32_t i=0; i<nb_reg; i++){
+		for(int32_t j=0; j<nb_feat; j++){
+		std::cout << data_feat[i][j];
+		}
+	std::cout << "\n";
+	}
+
+	//core::Matching(pts1, pts2, pair,0.75f,50);
 	/*pts1.clear();
 	pts2.clear();
 	for (const auto& p : pair)

@@ -1,4 +1,4 @@
-#include "common/interestpoint.h"
+#include "src/common/interestpoint.h"
 
 int main(int argc, char *argv[]) 
 {

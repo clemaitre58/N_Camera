@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(N_camera)
+project(N_camera CXX)
 
 include(cmake/options.cmake               REQUIRED)
 

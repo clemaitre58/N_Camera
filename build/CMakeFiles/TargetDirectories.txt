@@ -1,2 +1,0 @@
-/home/cedric/Documents/Ergocycle/N_Camera/build/apps/CMakeFiles/main.dir
-/home/cedric/Documents/Ergocycle/N_Camera/build/common/CMakeFiles/common.dir
